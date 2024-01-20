@@ -46,42 +46,42 @@ function App() {
       setUserAnswer(myAns)
       setAiAnswer(result)
       setResult("You Win!")
-      console.log("User Rock wins")
+      //console.log("User Rock wins")
       //console.log(`User chose: ${myAns} \nAI chose: ${result} \nResult: User Rock wins`)
     } 
     else if (result === 'Paper' && myAns === 'Scissor') {
       setUserAnswer(myAns)
       setAiAnswer(result)
       setResult("You Win!")
-      console.log("User Scissor wins")
+      //console.log("User Scissor wins")
       //console.log(`User chose: ${myAns} \nAI chose: ${result} \nResult: User Scissor wins`)
     } 
     else if (result === 'Rock' && myAns === 'Paper') {
       setUserAnswer(myAns)
       setAiAnswer(result)
       setResult("You Win!")
-      console.log("User Paper wins")
+      //console.log("User Paper wins")
       //console.log(`User chose: ${myAns} \nAI chose: ${result} \nResult: User Paper wins`)
     } 
     else if (result === 'Paper' && myAns === 'Rock') {
       setUserAnswer(myAns)
       setAiAnswer(result)
       setResult("Opponent Wins!")
-      console.log("Opponent Paper wins")
+      //console.log("Opponent Paper wins")
       //console.log(`User chose: ${myAns} \nAI chose: ${result} \nResult: AI Paper wins`)
     } 
     else if (result === 'Scissor' && myAns === 'Paper') {
       setUserAnswer(myAns)
       setAiAnswer(result)
       setResult("Opponent Wins!")
-      console.log("Opponent Scissor wins")
+      //console.log("Opponent Scissor wins")
       //console.log(`User chose: ${myAns} \nAI chose: ${result} \nResult: AI Scissor wins`) 
     } 
     else if (result === 'Rock' && myAns === 'Scissor') {
       setUserAnswer(myAns)
       setAiAnswer(result)
       setResult("Opponent Wins!")
-      console.log("Opponent Rock wins")
+      //console.log("Opponent Rock wins")
       //console.log(`User chose: ${myAns} \nAI chose: ${result} \nResult: AI Rock wins`)
     } 
     setResultDisplay(true)
